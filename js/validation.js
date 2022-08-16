@@ -14,16 +14,47 @@ validateAll.addEventListener("click", evaluateAll);
 
 //-----------------functions---------------------->
 function evaluateCow() {
-	console.log("cow");
+	if (cowInput.value == "ko") {
+		console.log("weeeeee ko");
+		cowInput.style.backgroundColor = "green";
+	} else {
+		console.log("ikke ko!");
+		cowInput.style.backgroundColor = "red";
+	}
 }
 
 function evaluatePig() {
-	console.log("pig");
-
+	if (pigInput.value == "gris") {
+		console.log("weeeeee gris");
+		pigInput.style.backgroundColor = "green";
+	} else {
+		console.log("ikke gris!");
+		pigInput.style.backgroundColor = "red";
+	}
 }
 
 function evaluateAll() {
-	console.log("all");
+	if (cowInput.value == "ko") {
+		console.log("weeeeee ko");
+		cowInput.style.backgroundColor = "green";
+	} else {
+		console.log("ikke ko!");
+		cowInput.style.backgroundColor = "red";
+	}
+	if (pigInput.value == "gris") {
+		console.log("weeeeee gris");
+		pigInput.style.backgroundColor = "green";
+	} else {
+		console.log("ikke gris!");
+		pigInput.style.backgroundColor = "red";
+	}
+	if (mooseInput.value == "elg") {
+		console.log("weeeeee moose");
+		mooseInput.style.backgroundColor = "green";
+	} else {
+		console.log("ikke moose!");
+		mooseInput.style.backgroundColor = "red";
+	}
 
 }
 
