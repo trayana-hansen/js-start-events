@@ -33,6 +33,7 @@ function evaluatePig() {
 	}
 }
 
+
 function evaluateAll() {
 	if (cowInput.value == "ko") {
 		console.log("weeeeee ko");
