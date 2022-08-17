@@ -10,21 +10,32 @@
     <link rel="stylesheet" href="" />
     <script src="js/events.js" defer></script>
     <script src="./js/validation.js" defer></script>
+    <link rel="stylesheet" href="./styling/style.css" />
   </head>
 
   <body>
-    <form>
-      <label for="cow">Skriv ko:</label><br />
-      <input type="text" id="cow" name="cow" /><br />
+    <div id="container-main">
+      <form>
+        <label for="cow">Skriv ko:</label><br />
+        <input type="text" id="cow" name="cow" /><br />
 
-      <label for="pig">skriv gris</label><br />
-      <input type="text" id="pig" value="bob" name="pig" />
-      <button type="button" id="evaluatePig">valider</button><br />
+        <label for="pig">skriv gris</label><br />
+        <input type="text" id="pig" value="bob" name="pig" />
+        <button type="button" id="evaluatePig">valider</button><br />
 
-      <label for="moose">Skriv elg:</label><br />
-      <input type="text" id="moose" name="moose" /><br />
+        <label for="moose">Skriv elg:</label><br />
+        <input type="text" id="moose" name="moose" /><br />
 
-      <button type="button" id="evaluateForm">valider form</button>
-    </form>
+        <button type="button" id="evaluateForm">valider form</button> <br>
+
+        <select name="animalSelect" id="animalSelect">
+          <option value="Fugl">Fugl</option>
+          <option value="Fisk">Fisk</option>
+          <option value="Reptil">Reptil</option>
+          <option value="Insekt">Insekt</option>
+          <option value="Pattedyr">Pattedyr</option>
+        </select>
+      </form>
+    </div>
   </body>
 </html>
