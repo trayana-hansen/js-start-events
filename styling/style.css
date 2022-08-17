@@ -33,3 +33,12 @@ select {
   width: 150px;
   height: 20px;
 }
+#animalDescription {
+  border: solid 3px #6f88fc;
+  border-radius: 10px;
+  width: 300px;
+  height: 150px;
+  padding: 5px;
+  font-weight: bold;
+}
+
