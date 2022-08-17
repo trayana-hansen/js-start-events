@@ -76,6 +76,8 @@ function evaluateAll() {
 		case "Pattedyr":
 			animalDescription.innerHTML = "You have chosen " + animalSelect.value + " a vertebrate animal constituting the class Mammalia characterized by the presence of mammary glands."
 			break;
+		default:
+			animalDescription.innerHTML = "Please choose an option"
 
 
 	}
@@ -83,3 +85,4 @@ function evaluateAll() {
 }
 
 //---------------------------------functions------------------------<
+
